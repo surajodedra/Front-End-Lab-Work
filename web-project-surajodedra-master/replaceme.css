@@ -15,6 +15,7 @@ body {
 
 }
 
+
 .pics {
 
 	position: absolute;
@@ -24,6 +25,20 @@ body {
 	height: 100vh;
 	animation: animate 14s ease-in-out infinite;
 	background-size: cover;
+
+}
+
+.heading {
+
+	background-image: url("C:/Users/Hp/Desktop/Front End Lab Work/Treetop.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	background-size: 20%;
+	background-position: center top;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
 
 }
 
@@ -38,8 +53,13 @@ body {
 	50%{
 		background-image: url("C:/Users/Hp/Desktop/Front End Lab Work/Cocktails.jpg");
 	}
+	75%{
+		background-image: url("C:/Users/Hp/Desktop/Front End Lab Work/Pizza.jpg");
+	}
 
 }
+
+
 
 /* One-liners are fine for very simple rulesets. */
 h1 { font-family: sans-serif;}
