@@ -10,8 +10,33 @@ This means the default styles are for the smallest mobile size.
 body {
 	/* note the indentation here */
 	/* background-color: #5bf; */
-	color: white;
-	background-image: url("C:/Users/Hp/Desktop/Front End Lab Work/golf.jpeg");
+
+		/* background-position: center; */
+
+}
+
+.pics {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	animation: animate 4s ease-in-out infinite;
+	background-repeat: no-repeat;
+	background-position: center, top left;
+	background-size: 100%, 100%;
+
+}
+
+@keyframes animate {
+
+	0%,100%{
+		background-image: url("C:/Users/Hp/Desktop/Front End Lab Work/golfnew.jpg");
+	}
+	100%{
+		background-image: url("C:/Users/Hp/Desktop/Front End Lab Work/Students.jpg");
+	}
 
 }
 
